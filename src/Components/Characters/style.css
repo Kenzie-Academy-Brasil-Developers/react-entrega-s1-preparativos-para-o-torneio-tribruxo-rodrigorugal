@@ -1,0 +1,96 @@
+.screen_secundary {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listBruxos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listBruxos .bruxos {
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px 0;
+  background-color: #161c29;
+  border-bottom: 3px solid #4c91ce;
+  border-top: 6px solid #4c91ce;
+  border-radius: 30px;
+}
+.listBruxos .bruxos img {
+  width: 180px;
+  border-radius: 15px;
+}
+
+.overFlow {
+  overflow-y: auto;
+  width: 245px;
+  height: 400px;
+  padding: 2px 15px;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: 0 0 6px 2px #161c29 inset;
+  border-radius: 15px;
+}
+
+.Ravenclaw {
+  border: 4px solid grey;
+}
+.houseRavenclaw {
+  color: grey;
+}
+.Slytherin {
+  border: 4px solid green;
+}
+.houseSlytherin {
+  color: green;
+}
+.Gryffindor {
+  border: 4px solid red;
+}
+.houseGryffindor {
+  color: red;
+}
+.Hufflepuff {
+  border: 4px solid yellow;
+}
+.houseHufflepuff {
+  color: yellow;
+}
+
+.bntTrio {
+  border: none;
+  padding: 10px 80px;
+  border-radius: 20px 20px 116px 116px;
+  margin: 5px 0;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .overFlow {
+    overflow: hidden;
+    width: 90%;
+    max-width: 740px;
+  }
+  .listBruxos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .listBruxos .bruxos {
+    height: 380px;
+    margin: 0 5px;
+  }
+}
