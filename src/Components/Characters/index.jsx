@@ -29,7 +29,9 @@ const Characters = ({ characters, show, setShow }) => {
         <ul className="listBruxos">
           {listBruxos.map((bruxo) => (
             <li className="bruxos">
-              <img className={bruxo.house} src={bruxo.image} alt={bruxo.name} />
+              <div className={bruxo.house + " imgBox"}>
+                <img src={bruxo.image} alt={bruxo.name} />
+              </div>
               <div>
                 <h3>{bruxo.name}</h3>
                 <h4 className={"house" + bruxo.house}>{bruxo.house}</h4>

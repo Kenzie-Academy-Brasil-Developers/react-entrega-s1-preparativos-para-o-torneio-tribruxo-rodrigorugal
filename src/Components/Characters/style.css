@@ -23,12 +23,16 @@
   border-bottom: 3px solid #4c91ce;
   border-top: 6px solid #4c91ce;
   border-radius: 30px;
+  font-size: 25px;
 }
 .listBruxos .bruxos img {
   width: 180px;
   border-radius: 15px;
 }
-
+.listBruxos .bruxos h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
 .overFlow {
   overflow-y: auto;
   width: 245px;
@@ -39,6 +43,12 @@
 
   box-shadow: 0 0 6px 2px #161c29 inset;
   border-radius: 15px;
+}
+
+.imgBox {
+  height: 247px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .Ravenclaw {
@@ -73,7 +83,7 @@
   margin: 5px 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .container {
     width: 100%;
     display: flex;
